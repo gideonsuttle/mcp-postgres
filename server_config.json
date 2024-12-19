@@ -1,8 +1,11 @@
 {
   "mcpServers": {
-    "sqlite": {
-      "command": "uvx",
-      "args": ["mcp-server-sqlite", "--db-path", "test.db"]
+    "postgres": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\GIDEON\\AppData\\Roaming\\npm\\node_modules\\@modelcontextprotocol\\server-postgres\\dist\\index.js",
+        "postgres://postgres:1411gideon@localhost:5432/postgres"
+      ]
     }
   }
 }
